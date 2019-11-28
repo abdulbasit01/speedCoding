@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="main">
+        <form action="" method="post">
+            <input type="text" class="input1" name="input1" id="userIp"> 
+        </form>
+        <table>
+            <tr class="row1">
+                <td><input type="button" name="one" id="one" value="1" onclick="inputVal(1)"></td>
+                <td><input type="button" name="two" id="two" value="2" onclick="inputVal(2)"></td>
+                <td><input type="button" name="three" id="three" value="3" onclick="inputVal(3)"></td>
+                <td><input type="button" name="eval" id="eval" value="=" onclick="isEqual()"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="four" id="four" value="4" onclick="inputVal(4)"></td>
+                <td><input type="button" name="five" id="five" value="5" onclick="inputVal(5)"></td>
+                <td><input type="button" name="six" id="six" value="6" onclick="inputVal(6)"></td>
+                <td><input type="button" name="plus" id="plus" value="+" onclick="inputVal('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="seven" id="seven" value="7" onclick="inputVal(7)"></td>
+                <td><input type="button" name="eight" id="eight" value="8" onclick="inputVal(8)"></td>
+                <td><input type="button" name="nine" id="nine" value="9" onclick="inputVal(9)"></td>
+                <td><input type="button" name="minus" id="minus" value="-" onclick="inputVal('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="C" id="C" value="C" onclick="clean()"></td>
+                <td><input type="button" name="<" id="<" value="<" onclick="back()"></td>
+                <td><input type="button" name="/" id="/" value="/" onclick="inputVal('/')"></td>
+                <td><input type="button" name="multiply" id="multiply" value="*" onclick="inputVal('*')"></td>
+            </tr>
+            <tr >
+                <td colspan='3'><input type="button" name="0" id="0" style="width:170px;"  value="0" onclick="inputVal('0')"></td>
+                <td colspan=''><input type="button" name="." id="." value="." onclick="inputVal('.')"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="secript.js"></script>
+</html>
